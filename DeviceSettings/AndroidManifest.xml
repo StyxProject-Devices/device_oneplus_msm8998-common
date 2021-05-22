@@ -72,12 +72,6 @@
         </activity>
 
         <activity
-            android:name=".TouchscreenGestureSettings"
-            android:label="@string/touchscreen_gesture_settings_title"
-            android:theme="@style/AppTheme">
-        </activity>
-
-        <activity
             android:name="com.oneplus.extras.DeviceSettings.thermal.ThermalActivity"
             android:exported="true"
             android:label="@string/thermal_title"
