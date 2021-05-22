@@ -499,9 +499,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# NezukoOS
-NEZUKO_BUILD_TYPE := OFFICIAL
-NEZUKO_MAINTAINER := Maitreya29
+# Styx
+STYX_BUILD_VARIANT := OFFICIAL
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
